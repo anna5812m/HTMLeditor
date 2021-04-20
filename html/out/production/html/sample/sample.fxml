@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <VBox prefHeight="800.0" prefWidth="600.0">
+         <children>
+            <HTMLEditor fx:id="htmleditor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" prefHeight="400.0" prefWidth="506.0" />
+            <TextArea fx:id="textarea" prefHeight="200.0" prefWidth="200.0" />
+            <WebView fx:id="webview" prefHeight="200.0" prefWidth="200.0" />
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onOpen" text="Загрузить" />
+                  <Button mnemonicParsing="false" onAction="#onChange" text="Изменить" />
+                  <Button mnemonicParsing="false" onAction="#onSave" text="Сохранить" />
+                  <Button mnemonicParsing="false" onAction="#onNew" text="Создать новый" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</GridPane>
