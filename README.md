@@ -26,8 +26,7 @@ HTML-редактор поможет создать html-код.
 **Ссылки на производственные или демонстрационные экземпляры**
   - Здесь ссылка на прототип.
 
-**Скриншот**: 
-https://github.com/anna5812m/HTMLeditor/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD.jpg
+[**Скриншот**:](https://github.com/anna5812m/HTMLeditor/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD.jpg)
 
 
 ## Зависимости
